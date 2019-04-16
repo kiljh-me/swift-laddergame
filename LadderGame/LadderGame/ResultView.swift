@@ -16,6 +16,7 @@ struct ResultView {
         for heightIndex in 0..<maximumHeight {
             printLadderRow(ladderRow: game.ladderBoard[heightIndex])
         }
+        
         printPlayerName(game.names)
     }
     
